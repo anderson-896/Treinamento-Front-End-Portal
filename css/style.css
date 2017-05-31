@@ -1,9 +1,104 @@
-div#teste {
-    background-color: #e60000;
-    color: white;
+.main-header {
+    height: 70px;
+    background-color: #e2e2e2;
+}
+
+.hamburguer {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+
+.hamburguer .linha {
+    background-color: #13579e;
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-top: 9px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+#logo {
+    width: 160px;
+    height: 70px;
+    margin: auto;
+    float: none;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    text-indent: -999999em;
+}
+
+.search {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+}
+
+.search .circulo {
+    width: 35px;
+    height: 35px;
+    display: block;
+    border-radius: 50%;
+    border: solid 4px #13579e;
+}
+
+.search .linha {
+    display: block;
+    width: 4px;
+    height: 24px;
+    background-color: #13579e;
+    border-radius: 3px;
+    position: absolute;
+    right: 11px;
+    top: 25px;
+    transform: rotateZ(137deg);
+}
+
+.content {
+    background-color: blue;
+    min-height: calc(100vh - 200px);
+}
+
+.main-footer .circulo {
+    width: 60px;
+    height: 60px;
+    background-color: #2b2b2b;
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.redes-sociais {
+    overflow: auto;
+    width: 215px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#footerCopyright a {
+    color: #fff;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    transition: all 1s;
+}
+
+#footerCopyright a:hover {
+    color: #2f2f58;
+    text-decoration: none;
 }
 
 
-.main-header {
-    height: 70px;
+
+.main-footer {
+    background-color: #929292;
+    height: 130px;
 }
